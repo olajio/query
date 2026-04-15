@@ -1,0 +1,41 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "script_exception",
+        "reason": "runtime error",
+        "script_stack": [
+          """ctx._source.group.add(params.group)
+	}""",
+          "                            ^---- HERE"
+        ],
+        "script": "sdp_add_group",
+        "lang": "painless",
+        "position": {
+          "offset": 79,
+          "start": 51,
+          "end": 89
+        }
+      }
+    ],
+    "type": "script_exception",
+    "reason": "runtime error",
+    "script_stack": [
+      """ctx._source.group.add(params.group)
+	}""",
+      "                            ^---- HERE"
+    ],
+    "script": "sdp_add_group",
+    "lang": "painless",
+    "position": {
+      "offset": 79,
+      "start": 51,
+      "end": 89
+    },
+    "caused_by": {
+      "type": "illegal_argument_exception",
+      "reason": "dynamic method [java.lang.String, add/1] not found"
+    }
+  },
+  "status": 400
+}
