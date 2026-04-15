@@ -1,0 +1,348 @@
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 384,
+      "relation": "eq"
+    },
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "sdp_amdb",
+        "_id": "CS01-10VLCNAS01",
+        "_score": 1,
+        "_source": {
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "os": "Windows2008R2",
+          "datacenter": "CS01",
+          "type": "server",
+          "svc_operator": "TechOps",
+          "alert_status": "disabled",
+          "hostname": "CS01-10VLCNAS01",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "domain": "hedgeservcustomers.com",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.340751769Z"
+          },
+          "client": "VLCNPROD",
+          "svc_software_owner": "IMP",
+          "group": "",
+          "app_code": "AS"
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "CS01-10VLCNAS02",
+        "_score": 1,
+        "_source": {
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "os": "Windows2008R2",
+          "datacenter": "CS01",
+          "type": "server",
+          "svc_operator": "TechOps",
+          "alert_status": "disabled",
+          "hostname": "CS01-10VLCNAS02",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "domain": "hedgeservcustomers.com",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.340773709Z"
+          },
+          "client": "VLCNPROD",
+          "svc_software_owner": "IMP",
+          "group": "",
+          "app_code": "AS"
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "CS01-10VLCNAS03",
+        "_score": 1,
+        "_source": {
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "os": "Windows2008R2",
+          "datacenter": "CS01",
+          "type": "server",
+          "svc_operator": "TechOps",
+          "alert_status": "disabled",
+          "hostname": "CS01-10VLCNAS03",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "domain": "hedgeservcustomers.com",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.340794099Z"
+          },
+          "client": "VLCNPROD",
+          "svc_software_owner": "IMP",
+          "group": "",
+          "app_code": "AS"
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "DDSR_VLCNPROD",
+        "_score": 1,
+        "_source": {
+          "alert_status": "enabled",
+          "hostname": "DDSR_VLCNPROD",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.340814234Z"
+          },
+          "client": "VLCNPROD",
+          "type": "Nginx Upstream",
+          "group": [],
+          "app_code": ""
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "DDSR_PRSQPROD",
+        "_score": 1,
+        "_source": {
+          "alert_status": "enabled",
+          "hostname": "DDSR_PRSQPROD",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.340992736Z"
+          },
+          "client": "PRSQPROD",
+          "type": "Nginx Upstream",
+          "group": [
+            "13533"
+          ],
+          "app_code": ""
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "DDSR_ARNIPROD",
+        "_score": 1,
+        "_source": {
+          "alert_status": "enabled",
+          "hostname": "DDSR_ARNIPROD",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.341016194Z"
+          },
+          "client": "ARNIPROD",
+          "type": "Nginx Upstream",
+          "group": [
+            "13533"
+          ],
+          "app_code": ""
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "CS01-10ARNIPY25",
+        "_score": 1,
+        "_source": {
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "os": "Windows2019",
+          "datacenter": "CS01",
+          "type": "server",
+          "svc_operator": "TechOps",
+          "alert_status": "enabled",
+          "hostname": "CS01-10ARNIPY25",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "domain": "hedgeservcustomers.com",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.341119840Z"
+          },
+          "client": "ARNIPROD",
+          "svc_software_owner": "MO",
+          "group": [
+            "10001",
+            "10004",
+            "10005",
+            "10006",
+            "10007",
+            "13002",
+            "13003",
+            "13008",
+            "13015",
+            "13016",
+            "13026",
+            "13512",
+            "13513",
+            "13525",
+            "13527",
+            "40026",
+            "14001",
+            "14003",
+            "14004",
+            "13533",
+            "13536",
+            "13538",
+            "13544",
+            "13545"
+          ],
+          "app_code": "PY"
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "CS01-10PRSQPY21",
+        "_score": 1,
+        "_source": {
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "os": "Windows2019",
+          "datacenter": "CS01",
+          "type": "server",
+          "svc_operator": "TechOps",
+          "alert_status": "enabled",
+          "hostname": "CS01-10PRSQPY21",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "domain": "hedgeservcustomers.com",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.341194917Z"
+          },
+          "client": "PRSQPROD",
+          "svc_software_owner": "MO",
+          "group": [
+            "10001",
+            "10005",
+            "10004",
+            "13002",
+            "13003",
+            "13008",
+            "13512",
+            "13513",
+            "13015",
+            "10007",
+            "10006",
+            "13016",
+            "40026",
+            "13026",
+            "13525",
+            "13527",
+            "14001",
+            "14003",
+            "14004",
+            "13533",
+            "13536",
+            "13538",
+            "13544",
+            "13545"
+          ],
+          "app_code": "PY"
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "CS01-10PRSQPY22",
+        "_score": 1,
+        "_source": {
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "os": "Windows2019",
+          "datacenter": "CS01",
+          "type": "server",
+          "svc_operator": "TechOps",
+          "alert_status": "enabled",
+          "hostname": "CS01-10PRSQPY22",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "domain": "hedgeservcustomers.com",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.341364179Z"
+          },
+          "client": "PRSQPROD",
+          "svc_software_owner": "MO",
+          "group": [
+            "10001",
+            "10004",
+            "10005",
+            "10006",
+            "10007",
+            "13002",
+            "13003",
+            "13008",
+            "13015",
+            "13016",
+            "13026",
+            "13512",
+            "13513",
+            "13525",
+            "13527",
+            "40026",
+            "14001",
+            "14003",
+            "14004",
+            "13533",
+            "13536",
+            "13538",
+            "13544",
+            "13545"
+          ],
+          "app_code": "PY"
+        }
+      },
+      {
+        "_index": "sdp_amdb",
+        "_id": "CS01-10PRSQPY23",
+        "_score": 1,
+        "_source": {
+          "maintanace.utc_start": "2026-03-21T02:33:58",
+          "os": "Windows2019",
+          "datacenter": "CS01",
+          "type": "server",
+          "svc_operator": "TechOps",
+          "alert_status": "enabled",
+          "hostname": "CS01-10PRSQPY23",
+          "maintanace.utc_end": "2026-03-21T08:33:58",
+          "domain": "hedgeservcustomers.com",
+          "record": {
+            "modified_by": "",
+            "modified_timestamp": "2026-03-21T02:33:58.341588867Z"
+          },
+          "client": "PRSQPROD",
+          "svc_software_owner": "MO",
+          "group": [
+            "10001",
+            "10004",
+            "10005",
+            "10007",
+            "13008",
+            "13003",
+            "13002",
+            "13015",
+            "13512",
+            "13513",
+            "10006",
+            "13016",
+            "40026",
+            "13026",
+            "13525",
+            "13527",
+            "14001",
+            "14003",
+            "14004",
+            "13533",
+            "13536",
+            "13538",
+            "13544",
+            "13545"
+          ],
+          "app_code": "PY"
+        }
+      }
+    ]
+  }
+}
